@@ -25,3 +25,4 @@ in ```output.csv```.
 * ARTM, RTL, CRE parsing
 * Make main to get/compile all data
 * Find data for gare centrale?
+* Remove duplicates?
