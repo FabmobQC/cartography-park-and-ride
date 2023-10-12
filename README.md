@@ -21,7 +21,7 @@ Final output data is formatted as
 in ```output.csv```.
 
 ### Todo
-* ARTM, RTL, CRE parsing
+* ARTM, CRE parsing
 * Make main to get/compile all data
 * Find data for gare centrale?
 * Remove duplicates?
