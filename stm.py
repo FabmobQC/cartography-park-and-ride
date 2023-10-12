@@ -3,7 +3,7 @@ import os
 from time import sleep
 from bs4 import BeautifulSoup
 
-os.makedirs('temp', exist_ok=True)
+os.makedirs('output', exist_ok=True)
 
 # Get bike parking spots
 stm_bike_parking = {}
@@ -49,6 +49,6 @@ for key, value in stm_bike_parking.items():
         coordinates = f"{lat},{long}"
     stm_data.append(f"{key},{value},0,{coordinates}")
 
-with open('temp/stm.csv', 'w') as f:
+with open('output/stm.csv', 'w') as f:
     for entry in stm_data:
         f.write(f"{entry}\n")

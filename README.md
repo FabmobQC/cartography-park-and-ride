@@ -8,7 +8,7 @@ Data for the REM compiled manually from https://rem.info/fr/se-deplacer/stations
 
 ## Data Format
 
-Intermediary data inside ```/temp``` is formatted as
+Intermediary data inside ```/output``` is formatted as
 
     name,spaces_bikes,spaces_cars,latitude,longitude
 
