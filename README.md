@@ -7,6 +7,7 @@ Retrieval and formating of data for superset site entry.
 1. Run the ```artm.py```, ```cre.py```, ```exo.py```, ```rtl.py```, and ```stm.py``` scripts as needed for each network's data to be generated in ```/network-data```.
 2. Add any other manual data into the network-data directory for it to be parsed (as the ```rem.csv```). Be sure it respects the below formatting.
 3. Run ```main.py```.
+4. Manually evaluate and remove possible duplicates based on script warnings.
 
 ## Data Format
 
