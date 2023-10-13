@@ -11,6 +11,8 @@ for file in os.listdir('network-data'):
     with open(f"network-data/{file}", 'r') as f:
         for line in f:
             if len(line.strip()) != 0:
-                data += f"{network},{line}"
+                fields = line.split(',')
+                if fields[1] != '0' or fields[2] != '0':
+                    data += f"{network},{line}"
     with open('output.csv', 'a') as f:
         f.write(data)
