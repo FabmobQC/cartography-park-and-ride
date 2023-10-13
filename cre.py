@@ -8,20 +8,20 @@ os.makedirs('network-data', exist_ok=True)
 
 # Manually retrieved coordinates for the final data which only had an address
 ADDRESS_COORDINATES = {
-    '1200 Rue Lenoir Saint-Bruno-de-Montarville': '45.5133054,-73.3766342',
-    '1895 avenue PANAMA Brossard': '45.5133054,-73.3766342',
-    '101 Rue Mercier Saint-Lambert': '45.5133054,-73.3766342',
-    '260 boul. DE MONTARVILLE Boucherville': '45.5133054,-73.3766342',
-    '1200 rue AMPÈRE Boucherville': '45.5133054,-73.3766342',
-    '4812 Route de l\'Aéroport Longueuil': '45.5133054,-73.3766342',
-    '2505 Rue Patrick Saint-Hubert': '45.5078882,-73.4383666',
-    '180, ARMAND-FRAPPIER BOULEVARD Sainte-Julie': '45.5827585,-73.328622',
-    '170 rue Saint-Laurent Beauharnois': '45.3143105,-73.8832422',
-    '555 Rue Boîleau Vaudreuil-Dorion': '45.3999709,-74.0544742',
-    '10 boulevard Perrot L\'Île-Perrot': '45.3959767,-73.9661289',
-    '3001 Boulevard Fréchette Chambly': '45.4328666,-73.3036244',
-    '121 Rue de la Gare Saint-Basile-le-Grand': '45.5235463,-73.3079311',
-    '399 Rue du Purvis Club McMasterville': '45.5457061,-73.2337543',
+    '1200 Rue Lenoir Saint-Bruno-de-Montarville': '45.5131661,-73.3745332',
+    '1895 avenue PANAMA Brossard': '45.4676296,-73.4687112',
+    '101 Rue Mercier Saint-Lambert': '45.5003248,-73.5051722',
+    '260 boul. DE MONTARVILLE Boucherville': '45.6007785,-73.4509127',
+    '1200 rue AMPÈRE Boucherville': '45.5723758,-73.4433196',
+    '4812 Route de l\'Aéroport Longueuil': '45.5095752,-73.4334731',
+    '2505 Rue Patrick Saint-Hubert': '45.5079019,-73.4359424',
+    '180, ARMAND-FRAPPIER BOULEVARD Sainte-Julie': '45.581808,-73.3246063',
+    '170 rue Saint-Laurent Beauharnois': '45.3143168,-73.88076',
+    '555 Rue Boîleau Vaudreuil-Dorion': '45.3999554,-74.0520369',
+    '10 boulevard Perrot L\'Île-Perrot': '45.3959799,-73.9637072',
+    '3001 Boulevard Fréchette Chambly': '45.4328447,-73.3025222',
+    '121 Rue de la Gare Saint-Basile-le-Grand': '45.5235105,-73.3054687',
+    '399 Rue du Purvis Club McMasterville': '45.5459627,-73.2303436',
 }
 
 # Get parking kml
