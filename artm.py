@@ -5,7 +5,7 @@ import openpyxl
 from time import sleep
 
 os.makedirs('temp', exist_ok=True)
-os.makedirs('output', exist_ok=True)
+os.makedirs('network-data', exist_ok=True)
 
 # Manually retrieved coordinates for the final data
 SITE_COORDINATES = {
@@ -100,5 +100,5 @@ for site in parking_df.itertuples():
     parking_data += f"{site[0]},{int(site[2])},{int(site[1])},{SITE_COORDINATES[site[0]]}\n"
 
 # Write parking data
-with open('output/artm.csv', 'w') as f:
+with open('network-data/artm.csv', 'w') as f:
     f.write(parking_data)

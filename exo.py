@@ -3,7 +3,7 @@ import os
 from time import sleep
 from bs4 import BeautifulSoup
 
-os.makedirs('output', exist_ok=True)
+os.makedirs('network-data', exist_ok=True)
 
 # Get line page links for a single direction each
 line_urls = []
@@ -57,6 +57,6 @@ for station_url in station_urls:
     name = station_info.find(id='InfosGareCarte').find('img').get('alt')
     coords = station_info.find(id='InfosGareCarte').find('img').get('src').split('?')[1].split('&')[0].split('=')[1]
     parking_data[name] = f"{bike_parking},{car_parking},{coords}"
-with open('output/exo.csv', 'w') as f:
+with open('network-data/exo.csv', 'w') as f:
     for key, value in parking_data.items():
         f.write(f"{key},{value}\n")

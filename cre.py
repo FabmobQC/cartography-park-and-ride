@@ -4,7 +4,7 @@ import re
 import os
 from bs4 import BeautifulSoup
 
-os.makedirs('output', exist_ok=True)
+os.makedirs('network-data', exist_ok=True)
 
 # Manually retrieved coordinates for the final data which only had an address
 ADDRESS_COORDINATES = {
@@ -55,5 +55,5 @@ for placemark in placemarks:
                 parking += f"{name},0,{spots},{ADDRESS_COORDINATES[address]}\n"
 
 # Write parking data to file
-with open('output/cre.csv', 'w') as f:
+with open('network-data/cre.csv', 'w') as f:
     f.write(parking)

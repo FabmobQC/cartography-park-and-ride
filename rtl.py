@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from zipfile import ZipFile
 
 os.makedirs('temp', exist_ok=True)
-os.makedirs('output', exist_ok=True)
+os.makedirs('network-data', exist_ok=True)
 
 # Get parking data files
 parking_request = requests.get('https://drive.google.com/uc?export=download&id=1cijwGauU5txVTaRO3vR6vS3hI7NhSBiw')
@@ -50,5 +50,5 @@ for placemark in placemarks:
     parking_data += f"{name},{bike_parking},{car_parking},{lat},{long}\n"
 
 # Write parking data to file
-with open('output/rtl.csv', 'w') as f:
+with open('network-data/rtl.csv', 'w') as f:
     f.write(parking_data)
