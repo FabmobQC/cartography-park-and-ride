@@ -24,8 +24,8 @@ Final output data is formatted as
 in ```output.csv```.
 
 ### Todo
-* Find data for gare centrale?
-* Remove duplicates?
+* gather more accurate stm coordinate data manually
+* check duplicates and produce final data csv
 
 ### Notes
 * Data for the REM was compiled manually from [their site](https://rem.info/fr/se-deplacer/stations-du-reseau) and is available in the top level ```rem.csv``` file. It is lacking information for gare centrale.
