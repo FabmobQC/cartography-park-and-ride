@@ -24,7 +24,6 @@ Final output data is formatted as
 in ```output.csv```.
 
 ### Todo
-* gather more accurate stm coordinate data manually
 * check duplicates and produce final data csv
 
 ### Notes
